@@ -2,10 +2,8 @@ class Solution:
     def maxProfit(self, prices: list[int]) -> int:
         if not prices:
             return 0
-
         minPrice = float('inf')
         maxProfit = 0
-
         for price in prices:
             if price < minPrice:
                 minPrice = price
@@ -14,5 +12,7 @@ class Solution:
 
         return maxProfit
 
-s = Solution()
-print(s.maxProfit([7,6,4,3,1]))
+
+
+#!Time complexity is O(n)
+#! Space complexity is O(1)

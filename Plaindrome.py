@@ -16,4 +16,4 @@ class Solution:
 
 
 #! Time complexity is O(log ^ 10(n))
-#! Space complexity is O(!) constant.
+#! Space complexity is O(1) constant.
